@@ -1,0 +1,191 @@
+{
+    "spider": "http://www.饭太硬.com/jar/fan.txt;md5;bb155c3f0133bbce4756ad52003f5968",
+    "wallpaper": "http://www.饭太硬.com/深色壁纸.jpg",
+    "sites": [
+      {
+        "key": "csp_Douban",
+        "name": "🔍 | 豆瓣评分 (仅供介绍)",
+        "type": 3,
+        "api": "csp_Douban",
+        "searchable": 0,
+        "quick": 0,
+        "filterable": 0
+      },
+      {
+        "key": "lz_vod",
+        "name": "🚀 | 量子资源 (极速/推荐)",
+        "type": 1,
+        "api": "https://cj.lziapi.com/api.php/provide/vod/",
+        "searchable": 1,
+        "quick": 1,
+        "filterable": 1,
+        "categories": [
+          "国产剧",
+          "韩剧",
+          "美剧",
+          "动作片",
+          "喜剧片",
+          "科幻片",
+          "恐怖片",
+          "战争片",
+          "动漫",
+          "综艺"
+        ]
+      },
+      {
+        "key": "ff_vod",
+        "name": "🏎️ | 非凡资源 (稳定/备用)",
+        "type": 1,
+        "api": "http://cj.ffzyapi.com/api.php/provide/vod/",
+        "searchable": 1,
+        "quick": 1,
+        "filterable": 1,
+        "categories": [
+          "国产剧",
+          "香港剧",
+          "韩国剧",
+          "欧美剧",
+          "动作片",
+          "科幻片",
+          "动漫",
+          "综艺"
+        ]
+      },
+      {
+        "key": "gs_vod",
+        "name": "⚡ | 光速资源 (秒播)",
+        "type": 1,
+        "api": "https://api.guangsuapi.com/api.php/provide/vod/",
+        "searchable": 1,
+        "quick": 1,
+        "filterable": 1
+      },
+      {
+        "key": "hn_vod",
+        "name": "🐂 | 红牛资源 (老牌)",
+        "type": 1,
+        "api": "https://www.hongniuzy2.com/api.php/provide/vod/",
+        "searchable": 1,
+        "quick": 1,
+        "filterable": 1
+      },
+      {
+        "key": "push_agent",
+        "name": "📲 | 手机推送到电视",
+        "type": 3,
+        "api": "csp_Push",
+        "searchable": 0,
+        "quick": 0,
+        "filterable": 0
+      }
+    ],
+    "parses": [
+      {
+        "name": "聚合解析",
+        "type": 3,
+        "url": "Demo"
+      },
+      {
+        "name": "推荐解析",
+        "type": 1,
+        "url": "http://xuansu.gratis/api/?key=xuansu&url="
+      }
+    ],
+    "flags": [
+      "youku",
+      "qq",
+      "iqiyi",
+      "qiyi",
+      "letv",
+      "sohu",
+      "tudou",
+      "pptv",
+      "mgtv",
+      "wasu",
+      "bilibili",
+      "renren",
+      "xigua"
+    ],
+    "ijk": [
+      {
+        "group": "软解码",
+        "options": [
+          {
+            "category": 4,
+            "name": "opensles",
+            "value": "0"
+          },
+          {
+            "category": 4,
+            "name": "overlay-format",
+            "value": "842225234"
+          },
+          {
+            "category": 4,
+            "name": "framedrop",
+            "value": "1"
+          },
+          {
+            "category": 4,
+            "name": "soundtouch",
+            "value": "1"
+          },
+          {
+            "category": 4,
+            "name": "start-on-prepared",
+            "value": "1"
+          },
+          {
+            "category": 1,
+            "name": "http-detect-range-support",
+            "value": "0"
+          },
+          {
+            "category": 1,
+            "name": "fflags",
+            "value": "fastseek"
+          },
+          {
+            "category": 2,
+            "name": "skip_loop_filter",
+            "value": "48"
+          },
+          {
+            "category": 4,
+            "name": "reconnect",
+            "value": "1"
+          },
+          {
+            "category": 4,
+            "name": "max-buffer-size",
+            "value": "5242880"
+          },
+          {
+            "category": 4,
+            "name": "enable-accurate-seek",
+            "value": "0"
+          },
+          {
+            "category": 4,
+            "name": "mediacodec",
+            "value": "0"
+          },
+          {
+            "category": 4,
+            "name": "mediacodec-auto-rotate",
+            "value": "0"
+          },
+          {
+            "category": 4,
+            "name": "mediacodec-handle-resolution-change",
+            "value": "0"
+          },
+          {
+            "category": 4,
+            "name": "mediacodec-hevc",
+            "value": "0"
+          }
+        ]
+      }
+    ]
+  }
